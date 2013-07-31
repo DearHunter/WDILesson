@@ -18,15 +18,62 @@
 
 
 
-## Intro questions
+## Review
    1. What are some differences between symbols and strings?
    2. At what number does an array's index start and why are we silly like that?
    3. What are two ways to declare an array? 
 
 
 
+## So ... Why not arrays?
+* 
+
+
+
 ## Hashes!
-#### Or should I say 
+
+> **A Hash is a dictionary-like collection of unique keys and their values.**
+
+* Nicknames: associative arrays or dictionaries
+* The last value should have no comma at the end
+* Ordered by key insertion
+
+
+
+## Hash Creation
+#### Keyword or literal notation:
+    foo = Hash.new
+    foo[:key] = "value"
+
+    bar = { :key => "value",
+            1 => :value1,
+		    "key2" => 42
+	      }
+	bar.store( :key, "new value" )
+	
+
+
+## But wait, there's more!
+If the keys are always symbols:
+    
+    goo = { :one => 1, :two => 2 }
+Is the same as
+
+    goo = { one: 2, two: 2 }
+
+
+
+## Default Values
+    
+    goo = Hash.new(10)
+    goo.default = 10
+
+
+
+## Retrevial
+* Simply typing in the name to get the hash literal
+		puts foo
+    puts foo[:key]  
 
 
 

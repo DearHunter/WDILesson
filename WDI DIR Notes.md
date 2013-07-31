@@ -29,3 +29,12 @@ Create a hash
 books = {}
 
 books = Hash.new(0)  // creates new hash with 0 the default value for all keys
+
+
+1. Symbols are immuatable, strings aren't.  For 10 instances of a symbol it only takes one space in memeory, whereas strings take one space for each instance. Mutable items can be changed after assignment, while immutable can only be overwritten. 
+2. offset from initial memorry location. so array[0] is zero offset from the first, ie the first one.  and arry[1] is 1 offset from the inital, ie 2nd item
+		Proformance, 1 vs 0 offer no advantage yet perform slightly worse.  So the small proformace loss of 1 based justifies the use of 0 based. BC the machine would need to do -1 for each array computation.
+3. foo = Array.new & foo1 = []  // Literal notation vs new keyword
+
+
+review, question why arrays are inadequate, HASHES, hands on hash	2
