@@ -1,4 +1,4 @@
-![General Assembly](images/ga.png)
+<!-- ![General Assembly](images/ga.png) -->
 
 # Matt Nodurfth
 
