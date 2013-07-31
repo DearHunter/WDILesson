@@ -30,5 +30,5 @@
 			<a class="image" href="http://lab.hakim.se/meny/" target="_blank">
 				<img width="320" height="299" src="http://s3.amazonaws.com/hakim-static/portfolio/images/meny.png" alt="Meny">
 			</a>
-		</section>
+	</section>
 ```
