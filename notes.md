@@ -1,3 +1,5 @@
+![General Assembly](images/ga.png)
+
 # Matt Nodurfth
 
 
