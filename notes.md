@@ -1,5 +1,3 @@
-<!-- ![General Assembly](images/ga.png) -->
-
 # Hashes
 ### Sample lesson for GA's WDI
 ###### Created by: [Matt Nodurfth](http://github.com/DearHunter)
@@ -25,8 +23,10 @@
 
 
 
-## So ... Why not arrays?
-* 
+## So ... What's wrong with arrays?
+* Nothing!
+* But... semantic indicies
+* Not just numbers!
 
 
 
@@ -45,12 +45,12 @@
     foo = Hash.new
     foo[:key] = "value"
 
-    bar = { :key => "value",
-            1 => :value1,
+    bar = { :key   => "value",
+            1      => :value1,
 		    "key2" => 42
 	      }
-	bar.store( :key, "new value" )
-	
+  	bar.store( :key, "new value" )
+
 
 
 ## But wait, there's more!
@@ -59,7 +59,7 @@ If the keys are always symbols:
     goo = { :one => 1, :two => 2 }
 Is the same as
 
-    goo = { one: 2, two: 2 }
+    goo = { one: 1, two: 2 }
 
 
 
@@ -71,9 +71,16 @@ Is the same as
 
 
 ## Retrevial
-* Simply typing in the name to get the hash literal
-		puts foo
-    puts foo[:key]  
+* Simply typing in the name to get the hash literal:
+		puts foo[:key]
+		
+* To get the value from the known key:
+    
+    ```puts foo```
+      
+<!-- * Or looping though the hash to get the key and value:
+
+    SOME CODE HERE -->
 
 
 
@@ -82,11 +89,4 @@ Is the same as
 
 
 
-```
-	<section>
-			<h2>Spectacular image!</h2>
-			<a class="image" href="http://lab.hakim.se/meny/" target="_blank">
-				<img width="320" height="299" src="http://s3.amazonaws.com/hakim-static/portfolio/images/meny.png" alt="Meny">
-			</a>
-	</section>
-```
+## Hands on Hashes
