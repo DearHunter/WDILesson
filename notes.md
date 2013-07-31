@@ -1,15 +1,16 @@
 <!-- ![General Assembly](images/ga.png) -->
 
-# Matt Nodurfth
+## Matt Nodurfth
 
 
 
-## Next slide
+# Hashes
+  * Identify what a hash is and why you would use it instead of an array
 
-
-
-## 2nd slide
-
-
-
-## 3rd slide or on 2nd slide?
+# Activity
+* Discuss with students:
+	* What is a hash?
+	* Why use a hash vs array?
+* Demonstarte how to do the following using pry:
+	* Create a hash
+	* Access items in a hash (vs. an array)   
