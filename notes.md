@@ -1,7 +1,8 @@
 <!-- ![General Assembly](images/ga.png) -->
 
-## Matt Nodurfth
-
+# Hashes
+### Sample lesson for GA's WDI
+###### Created by: [Matt Nodurfth](http://github.com/DearHunter)
 
 
 # Hashes
@@ -18,9 +19,19 @@
 
 
 ## Intro questions
-   1. What main diff between symbol and string?
-   2. Why do we start array index at 0 (what number does array index start and why)?
+   1. What are some differences between symbols and strings?
+   2. At what number does an array's index start and why are we silly like that?
    3. What are two ways to declare an array? 
+
+
+
+## Hashes!
+#### Or should I say 
+
+
+
+## And Remember
+* Symbols are more effiecent than strings, so they make great key values
 
 
 
