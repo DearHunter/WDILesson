@@ -14,3 +14,10 @@
 * Demonstarte how to do the following using pry:
 	* Create a hash
 	* Access items in a hash (vs. an array)   
+
+
+
+## Intro questions
+   1. What main diff between symbol and string?
+   2. Why do we start array index at 0 (what number does array index start and why)?
+   3. What are two ways to declare an array? 
