@@ -18,7 +18,7 @@
 
 ## Review
    1. What are some differences between symbols and strings?
-   2. At what number does an array's index start and why are we silly like that?
+   2. At what number does an array's index start and why are programmers silly like that?
    3. What are two ways to declare an array? 
 
 
