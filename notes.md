@@ -25,8 +25,9 @@
 
 ## So ... What's wrong with arrays?
 * Nothing!
-* But... semantic indicies
 * Not just numbers!
+* But... semantic indicies
+
 
 
 
@@ -34,7 +35,7 @@
 
 > **A Hash is a dictionary-like collection of unique keys and their values.**
 
-* Nicknames: associative arrays or dictionaries
+* Nicknames: **associative arrays** or **dictionaries**
 * The last value should have no comma at the end
 * Ordered by key insertion
 
@@ -49,7 +50,7 @@
             1      => :value1,
 		    "key2" => 42
 	      }
-  	bar.store( :key, "new value" )
+    bar.store( :key, "new value" )
 
 
 
@@ -57,7 +58,7 @@
 If the keys are always symbols:
     
     goo = { :one => 1, :two => 2 }
-Is the same as
+...is the same as
 
     goo = { one: 1, two: 2 }
 
@@ -70,13 +71,13 @@ Is the same as
 
 
 
-## Retrevial
+## Retrieval
 * Simply typing in the name to get the hash literal:
-		puts foo[:key]
+		puts foo
 		
 * To get the value from the known key:
     
-    ```puts foo```
+      puts foo[:key]
       
 <!-- * Or looping though the hash to get the key and value:
 
@@ -85,7 +86,7 @@ Is the same as
 
 
 ## And Remember
-* Symbols are more effiecent than strings, so they make great key values
+* Symbols are more efficient than strings, so they make great key values
 
 
 

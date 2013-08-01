@@ -38,3 +38,43 @@ books = Hash.new(0)  // creates new hash with 0 the default value for all keys
 
 
 review, question why arrays are inadequate, HASHES, hands on hash	2
+
+
+What would I use a dictionary for?
+Any time you have to take one value and "look up" another value. In fact you could call dictionaries "look up tables."
+What would I use a list for?
+A list is for any sequence of things that need to go in order, and you only need to look them up by a numeric index.
+
+
+
+
+
+
+
+		<section>
+			<section>
+				<h2>Fragmented Views</h2>
+				<p>Hit the next arrow...</p>
+				<p class="fragment">... to step through ...</p>
+				<ol>
+					<li class="fragment"><code>any type</code></li>
+					<li class="fragment"><em>of view</em></li>
+					<li class="fragment"><strong>fragments</strong></li>
+				</ol>
+
+				<aside class="notes">
+					This slide has fragments which are also stepped through in the notes window.
+				</aside>
+			</section>
+			<section>
+				<h2>Fragment Styles</h2>
+				<p>There's a few styles of fragments, like:</p>
+				<p class="fragment grow">grow</p>
+				<p class="fragment shrink">shrink</p>
+				<p class="fragment roll-in">roll-in</p>
+				<p class="fragment fade-out">fade-out</p>
+				<p class="fragment highlight-red">highlight-red</p>
+				<p class="fragment highlight-green">highlight-green</p>
+				<p class="fragment highlight-blue">highlight-blue</p>
+			</section>
+		</section>
