@@ -78,3 +78,27 @@ A list is for any sequence of things that need to go in order, and you only need
 				<p class="fragment highlight-blue">highlight-blue</p>
 			</section>
 		</section>
+
+
+foo.key //inspect
+foo.values
+foo
+foo[:key] 
+foo.fetch key
+foo.values_at key, key1
+
+foo.each { |k, v| puts "key: #{k}, Value: #{v}" }
+
+
+foo.value? :value
+foo.key?   :key
+
+contract type
+d
+
+
+
+
+
+
+
